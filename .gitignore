@@ -89,6 +89,7 @@ celerybeat-schedule
 
 # Environments
 sendgrid.env
+*.env
 .env
 .venv
 env/

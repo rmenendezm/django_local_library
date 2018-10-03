@@ -127,9 +127,7 @@ LOGIN_REDIRECT_URL = '/'
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rmenendezm'
-EMAIL_HOST_PASSWORD = '3ntryP01nt'
+EMAIL_PORT = 587 
 EMAIL_USE_TLS = True
 
 # Heroku: Update database configuration from $DATABASE_URL.
