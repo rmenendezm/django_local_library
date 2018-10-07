@@ -129,8 +129,10 @@ LOGIN_REDIRECT_URL = '/'
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT = 587 
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.environ.get('SENDGRID_USERNAME', 'rmenendezm')
-EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_PASSWORD', '3ntryP01nt')
+EMAIL_HOST_USER = os.environ.get('SENDGRID_USERNAME')
+EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_PASSWORD')
+DEFAULT_FROM_EMAIL = 'support@all-monitoring.com'
+
 
 
 # Heroku: Update database configuration from $DATABASE_URL.
